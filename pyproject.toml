@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cycle1"
+version = "0.1.0"
+description = "Preliminary zero-dimensional gas turbine cycle performance analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary - evaluation prototype"}
+dependencies = []
+
+[project.scripts]
+cycle1 = "cycle1.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
