@@ -17,8 +17,8 @@ DATA = """
 토크 · Torque|N·m:1,kN·m:1000,lbf·ft:1.3558179483314004,lbf·in:0.1129848290276167,kgf·m:9.80665
 동력 · Power|W:1,kW:1000,MW:1000000,hp (mechanical):745.6998715822702,PS (metric hp):735.49875,BTU/h (IT):0.2930710701722222
 에너지 · Energy|J:1,kJ:1000,MJ:1000000,kWh:3600000,BTU (IT):1055.05585262,kcal (thermochemical):4184,ft·lbf:1.3558179483314004
-비에너지 · Specific energy|J/kg:1,kJ/kg:1000,MJ/kg:1000000,BTU/lbm (IT):2326.000325775,kcal/kg:4184
-비열 · Specific heat|J/(kg·K):1,kJ/(kg·K):1000,BTU/(lbm·°R):4186.800586395,cal/(g·K):4184
+비에너지 · Specific energy|J/kg:1,kJ/kg:1000,MJ/kg:1000000,BTU/lbm (IT):2326,kcal/kg:4184
+비열 · Specific heat|J/(kg·K):1,kJ/(kg·K):1000,BTU/(lbm·°R):4186.8,cal/(g·K):4184
 밀도 · Density|kg/m³:1,g/cm³:1000,lbm/ft³:16.01846337396014
 질량 · Mass|kg:1,g:0.001,tonne:1000,lbm:0.45359237,oz (avoirdupois):0.028349523125
 길이 · Length|m:1,mm:0.001,cm:0.01,km:1000,in:0.0254,ft:0.3048,mile:1609.344,nmi:1852
@@ -30,8 +30,8 @@ DATA = """
 관성모멘트 · Mass moment of inertia|kg·m²:1,lbm·ft²:0.0421401100938048,slug·ft²:1.3558179483314004
 점성계수 · Dynamic viscosity|Pa·s:1,mPa·s:0.001,cP:0.001,P (poise):0.1
 동점성계수 · Kinematic viscosity|m²/s:1,mm²/s:0.000001,cSt:0.000001,St:0.0001
-TSFC · Thrust-specific fuel consumption|kg/(N·s):1,kg/(kN·s):0.001,kg/(N·h):0.0002777777777777778,kg/(kN·h):0.0000002777777777777778,lbm/(lbf·h):0.000028327533693831
-PSFC · Power-specific fuel consumption|kg/(W·s):1,kg/kWh:0.0000002777777777777778,g/kWh:0.0000000002777777777777778,lbm/(hp·h):0.000000168974
+TSFC · Thrust-specific fuel consumption|kg/(N·s):1,kg/(kN·s):0.001,kg/(N·h):0.0002777777777777778,kg/(kN·h):0.0000002777777777777778,lbm/(lbf·h):0.00002832545036049801
+PSFC · Power-specific fuel consumption|kg/(W·s):1,kg/kWh:0.0000002777777777777778,g/kWh:0.0000000002777777777777778,lbm/(hp·h):0.00000016896594106715585
 """
 UNIT_SETS = {}
 for line in DATA.strip().splitlines():
